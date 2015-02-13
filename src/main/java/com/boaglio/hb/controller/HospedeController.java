@@ -27,7 +27,7 @@ public class HospedeController {
 	@RequestMapping(value = "/busca",method = RequestMethod.GET)
 	public String busca(@RequestParam("criterioDeBusca") String criterioDeBusca,ModelMap model) {
 
-		if (criterioDeBusca == null) {
+		if (criterioDeBusca == null || criterioDeBusca.length() == 0) {
 			criterioDeBusca = "golpe";
 		}
 		List<Hospede> hospedes = repository.buscaTodos(criterioDeBusca);
