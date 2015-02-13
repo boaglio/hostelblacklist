@@ -1,5 +1,5 @@
-db.hospede.insert({nome:"Adriano Amaro FIlho",
-	rg: "2049060-7",
+db.hospede.insert({nome:"Marcelo Amaro FIlho",
+	rg: "2066660-7",
 	cpf:76875776987,
 	cidadeOrigem:"Belo Horizonte",
 	paisOrigem:"BR",
@@ -8,11 +8,11 @@ db.hospede.insert({nome:"Adriano Amaro FIlho",
 	ocorrencias:[{
 		descricao:"Se hospedou aqui com um amigo francês desde o dia 01/02, não deram problemas",
 	    data:new Date() ,
-        hostel:"Viva Hostel Design"
+        hostel:"Aleluia Hostel "
 	}]
 });
 db.hospede.insert({nome:"Mauro Amaro Filho",
-	rg: "1049060-7",
+	rg: "1066660-7",
 	cpf:26875776987,
 	cidadeOrigem:"Belo Horizonte",
 	paisOrigem:"BR",
@@ -21,11 +21,11 @@ db.hospede.insert({nome:"Mauro Amaro Filho",
 	ocorrencias:[{
 		descricao:"Se hospedou aqui com um amigo francês desde o dia 01/02, não deram problemas",
 	    data:new Date() ,
-        hostel:"Viva Hostel Design"
+        hostel:"Aleluia Hostel "
 	}]
 });
 db.hospede.insert({nome:"Bruno Filho",
-	rg: "2049060-7",
+	rg: "2066660-7",
 	cpf:26875776987,
 	cidadeOrigem:"São Paulo",
 	paisOrigem:"BR",
